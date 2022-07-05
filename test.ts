@@ -1,9 +1,7 @@
-let a: number;
+// 타입스크립트
 
-// a = "Mark";
+function typeAdd(n1: number, n2: number) {
+  return n1 + n2;
+}
 
-a = 39;
-
-function hello(b: number) {}
-
-hello("Mark");
+const typeResult = typeAdd(39, 22);
