@@ -22,4 +22,4 @@ function leakingAny(obj: any) {
 }
 
 const c = leakingAny({ num: 0 });
-c.indexOf("0");
+// c.indexOf("0");
