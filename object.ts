@@ -5,7 +5,7 @@ const person1 = { name: "Mark", age: 30 }; // 오브젝트 리터럴
 // person1 "{ name: string, age: number }"
 
 const person2 = Object.create({ name: "Mark", age: 30 });
-const person2 = Object.create({});
-// const person2 = Object.create(30); // Error
+const person3 = Object.create({});
+// const person4 = Object.create(30); // Error
 
 // 프리미티브 타입이 아닌 것 = 오브젝트
